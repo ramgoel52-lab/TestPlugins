@@ -8,7 +8,7 @@ concurrency:
 on:
   push:
     branches:
-      # choose your default branch
+      workflow_dispatch
       - master
       - main
     paths-ignore:
